@@ -1,0 +1,26 @@
+*{
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+
+#front-wheel,#back-wheel{
+    animation: circle linear 1s  infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+   
+}
+
+
+
+@keyframes circle{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+
+    }
+}
+
